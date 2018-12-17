@@ -1,0 +1,81 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 382dcba243c770947ab75a9785d20f8d, type: 3}
+  m_Name: New Dialog
+  m_EditorClassIdentifier: 
+  dialogNodes:
+  - window:
+      serializedVersion: 2
+      x: 30
+      y: 70
+      width: 300
+      height: 115
+    posX: 39
+    posY: 59
+    showText: 1
+    showConditionGroups: 0
+    showConditions: 
+    dialog:
+      id: 0
+      comesFrom: 0
+      text:
+      - Sarasa
+  - window:
+      serializedVersion: 2
+      x: 218
+      y: 277
+      width: 300
+      height: 110
+    posX: 740
+    posY: 78
+    showText: 0
+    showConditionGroups: 0
+    showConditions: 
+    dialog:
+      id: 1
+      comesFrom: 500
+      text: []
+  responseNodes:
+  - window:
+      serializedVersion: 2
+      x: 405
+      y: 94
+      width: 300
+      height: 125
+    posX: 355
+    posY: 138
+    showText: 0
+    showConditionGroups: 0
+    showConditions: 
+    response:
+      id: 500
+      comesFrom: 0
+      responseText: 
+  dragScreen:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 3.4028235e+38
+    height: 3.4028235e+38
+  dialogs:
+  - id: 0
+    comesFrom: 0
+    text:
+    - Sarasa
+  - id: 1
+    comesFrom: 500
+    text: []
+  responses:
+  - id: 500
+    comesFrom: 0
+    responseText: 
+  dialogCondition: 
+  repeats: 0
